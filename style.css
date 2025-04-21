@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+body{
+    background-color: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* navigation starts here */
+nav{
+    background-color: black;
+    height: 4.5vh;
+    display: flex;
+    align-items: center;
+}
+nav .menu{
+    background-color: rgb(48, 49, 49);
+    width: 30px;
+    height: 30px;
+    margin: 0px 20px;
+    text-align: center;
+    border-radius: 30px;
+    
+}
+nav .menu1{
+    margin-top: 6px;
+    color:white;
+    cursor: pointer;
+}
+nav .logo i{
+    color: red;
+    background-color: white;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-family: "Abel", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+
+}
+nav .searchbar{
+    background-color: black;
+    width: 420px;
+    height: 70%;
+    margin: 0 0 0 30%;
+    display: flex;
+    border-radius: 20px;
+    border: solid rgb(51, 50, 50) 1px;
+    overflow: hidden;
+
+}
+nav .searchbar input{
+    background-color: black;
+    color: white;
+    border: none;
+    width: 390px;
+    height: 26px;   
+    margin-left: 10px;
+    padding: 2px;
+}
+nav .searchbar div{
+    background-color: rgb(51, 50, 50);
+    height: 100%;
+    width: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+nav .searchbar div i{
+    color: white;
+    margin-top: 6px;
+}
+nav .mic{
+    background-color: rgb(51, 50, 50);
+    width: 32px;
+    height: 32px;
+    margin-left: 15px;
+    border-radius: 32px;
+    text-align: center;
+    cursor: pointer;
+}
+nav .mic i{
+    margin-top: 8px;
+    color: white;
+    font-size: 14px;
+}
+/* navigation end  */
+
+#mainBody{
+    width: 100vw;
+    min-height: calc(100vh - 5vh);
+    display: flex;
+}
+/* sideMenubar starts here*/
+#mainBody .sideMenubar{
+    width: 175px;
+    background-color: black;
+    min-height: calc(100vh - 5vh);
+    align-items: center;
+    
+}  
+#mainBody .content{
+    background-color: rgb(48, 49, 49);
+    min-height: calc(100vh - 5vh);
+    width: calc(100vw - 175px);
+}
+#mainBody .sideMenubar .container{
+    height: fit-content;
+    background-color: black;
+    border-bottom: solid rgb(48, 49, 49) 1px;
+    margin: 5px 0px 5px 0px;
+    width: 100%;
+}
+.bkg{
+    width: 150px;
+    height: 35px;
+    background-color: black;
+    margin: auto;
+    margin-top: 5px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+.bkg :hover{
+    background-color: rgb(48, 49, 49);
+    height: 20px;
+    border-radius: 10px;
+}
+.active{
+    background-color: rgb(48, 49, 49);
+}
+.bkg a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 8px;
+    color: white;
+    font-family: "Abel", sans-serif;
+    font-size: 14px;
+}
+/* sideMenubar ends here */
+
+/* main content starts here */
+.content{
+    padding: 2px;
+}
+.recent{
+    border-radius: 10px;
+    background-color: white;
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    margin: 5px;
+}
+.content .recent a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-family: "Abel", sans-serif;
+    display: block;
+}
+
+
