@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+body{
+    background-color: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* navigation starts here */
+nav{
+    background-color: black;
+    width: 100vw;
+    height: 4.5vh;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    box-sizing: border-box;
+}
+nav .menu{
+    background-color: rgb(48, 49, 49);
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+    margin: 0px 20px;
+    text-align: center;
+    border-radius: 30px;
+    
+}
+nav .menu1{
+    margin-top: 6px;
+    color:white;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+nav .logo i{
+    color: red;
+    background-color: white;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-family: "Abel", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+
+}
+nav .searchbar{
+    background-color: black;
+    width: 420px;
+    height: 70%;
+    margin: 0 0 0 30%;
+    display: flex;
+    border-radius: 20px;
+    border: solid rgb(51, 50, 50) 1px;
+    overflow: hidden;
+}
+nav .searchbar input{
+    background-color: black;
+    color: white;
+    border: none;
+    width: 390px;
+    height: 26px;   
+    margin-left: 10px;
+    padding: 16px;
+    box-sizing: border-box;
+}
+nav .searchbar div{
+    background-color: rgb(51, 50, 50);
+    height: 100%;
+    width: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+nav .searchbar div i{
+    color: white;
+    margin-top: 6px;
+}
+nav .mic{
+    background-color: rgb(51, 50, 50);
+    width: 32px;
+    height: 32px;
+    margin-left: 15px;
+    border-radius: 32px;
+    text-align: center;
+    cursor: pointer;
+}
+nav .mic i{
+    margin-top: 8px;
+    color: white;
+    font-size: 14px;
+}
+/* navigation end  */
+
+#mainBody{
+    width: 100vw;
+    min-height: calc(100vh - 5vh);
+    display: flex;
+}
+/* sideMenubar starts here*/
+#mainBody .subMenubar1{
+    width: 175px;
+    padding: 0;
+    background: transparent;
+    min-height: calc(100vh - 5vh);
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 4.5vh;
+    position: fixed;
+    overflow: auto;
+}  
+#mainBody .subMenubar1 .container{
+    height: fit-content;
+    background-color: black;
+    border-bottom: 1px solid rgb(48, 49, 49);
+    width: 100%;
+    box-sizing: border-box;
+}
+.bkg{
+    width: 8vw;
+    height: 35px;
+    background-color: black;
+    margin: auto;
+    margin-top: 5px;
+    text-align: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+}
+.bkg :hover{
+    background-color: rgb(48, 49, 49);
+    height: 35px;
+    border-radius: 10px;
+}
+.active{
+    background-color: rgb(48, 49, 49);
+}
+.bkg a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 8px;
+    color: white;
+    font-family: "Abel", sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+/* sideMenubar ends here */
+.subMenubar2{
+    background-color: black;
+    width: 100vw;
+    height: 30px;
+    position: fixed;
+    display: flex;
+    top: 4.5vh;
+    left: 175px;
+    padding: 5px;
+}
+.subMenubar2 a{
+    width: auto;
+    height: 24px;
+    margin-right: 10px;
+    padding: 2px 8px;
+    background-color: rgb(48, 49, 49);
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-family: "Abel", sans-serif;
+    display: block;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+/* main content starts here */
+#mainBody .content{
+    background-color: black;
+    width: calc(100vw - 175px);
+    min-height: 100vh;
+    padding: 2px;
+    margin-left: 175px;
+    margin-top: 7.5vh;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.content .container1{
+    width: 100%;
+    height: 280px;
+    display: flex;
+}
+.content .container2{
+    width: 100%;
+    height: 410px;
+    display: flex;
+}
+.video{
+    width: 18%;
+    height: 70%;
+    box-sizing: border-box;
+    margin: 15px;
+    border: 1px solid white;
+}
+.shorts{
+    width: 10%;
+    height: 90%;
+    margin: 10px;
+    border: 1px solid white;
+    box-sizing: border-box;
+}
+
