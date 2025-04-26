@@ -232,7 +232,6 @@ nav .mic i {
     margin-top: 10.5vh;
     height: fit-content;
     box-sizing: border-box;
-    overflow: hidden;
 }
 .content .container1{
     /* background-color: blue; */
@@ -240,6 +239,7 @@ nav .mic i {
     margin-bottom: 30px;
     height: 200px;
     display: flex;
+    overflow-x: scroll;
 }
 .content .container2{
     /* background-color: white; */
@@ -255,11 +255,12 @@ nav .mic i {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 20%;
+    min-width: 300px;
     /* background-color: burlywood; */
     border: 1px solid white;
     box-sizing: border-box;
-    margin: 0 5px;
+    margin-bottom: 1rem;
+    cursor: pointer;
 }
 .shorts{
     width: 12%;
