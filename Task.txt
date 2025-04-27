@@ -1,0 +1,4 @@
+Design this home page: 
+https://www.figma.com/design/asYg0sx68PANcEEgVv7auU/phintella-new?node-id=0-1&p=f&t=PWqNBXX9CPx2GMgp-0
+
+If unable to extract image from figma use some diffrent image.  image size should be in proper aspect ratio.
